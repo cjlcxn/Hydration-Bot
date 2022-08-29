@@ -1,0 +1,77 @@
+body {
+  width: 350px;
+}
+
+.button {
+  width: 100%;
+  padding: 0;
+  height: 30px;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.button :hover {
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: green;
+  color: beige;
+  display: block;
+  margin: auto;
+  width: 100%;
+  font-size: large;
+}
+
+#button2 {
+  background-color: red;
+  color: rgb(233, 233, 197);
+  display: none;
+  margin: auto;
+  width: 100%;
+  font-size: large;
+}
+
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.timer {
+  font-size: x-large;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.content {
+  letter-spacing: 0.6rem;
+}
+
+.edit {
+  float: right;
+  margin-bottom: 0.25rem;
+  margin-right: 0.5rem;
+  text-decoration: underline;
+  border: none;
+}
+
+.edit :hover {
+  cursor: pointer;
+}
+
+.number {
+  min-width: 100px;
+}
+.form {
+  display: none;
+  margin-right: 0.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.error {
+  display: none;
+}

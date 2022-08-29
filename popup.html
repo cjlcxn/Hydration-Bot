@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css" />
+    <title>Document</title>
+  </head>
+  <body style="width: 300px">
+    <button class="button" id="button1">Start</button>
+    <button class="button" id="button2">Stop & Reset</button>
+
+    <main>
+      <div class="timer timer--1">
+        <div class="title">Hydrate:</div>
+        <div class="content"></div>
+      </div>
+      <!-- <div class="timer timer--2">
+        Sit straight:
+        <span class="count-digit">2</span>
+        <span class="count-digit">0</span>
+        <span class="separator">:</span>
+        <span class="count-digit">0</span>
+        <span class="count-digit">0</span>
+      </div> -->
+      <footer>
+        <div class="error">number between 1-99 only</div>
+        <button class="edit">Edit timer</button>
+        <form class="form" action="">
+          <label for="min">Minutes:</label>
+          <input
+            class="number"
+            placeholder="minutes (max 99)"
+            type="number"
+            name=""
+            id="min"
+            value="30"
+            max="99"
+            min="1"
+          />
+          <button class="confirm">Confirm</button>
+        </form>
+      </footer>
+    </main>
+  </body>
+</html>
